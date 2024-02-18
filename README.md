@@ -1,6 +1,6 @@
 # Импортер из SQL Server в PostgreSQL
 
-Этот проект представляет собой набор инструментов для эффективной передачи данных из SQL Server в PostgreSQL, используя возможности PXF и system-versioned temporal tables для оптимизации обработки данных. 
+Этот проект представляет собой набор функций для инкрементальной передачи данных из SQL Server в PostgreSQL/Greenpolum, используя возможности PXF и system-versioned temporal tables для оптимизации обработки данных. 
 
 ## Возможности
 
