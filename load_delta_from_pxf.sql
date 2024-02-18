@@ -73,6 +73,7 @@ begin
     end if;
 exception
     when others then
+        /* Можно дописать необходимую обработку */
         raise exception 'Ошибка при обновлении данных: %', SQLERRM;
 end
 $$ language plpgsql;
